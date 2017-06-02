@@ -9,18 +9,22 @@ But is 80 characters too high?
 Some suggest 79, or even as low as 75, to allow for an 80 character wide terminal to fit the code with a few columns devoted to line numbers.
 Clearly, ultimately, lower is better, as lower limits allow for the code to be used in more situations without reformatting.
 
-## Introducing the max6 standard.
+## Introducing the `max_5` standard.
 
-In Python there is no excuse to ever use more than six characters per line.
+In Python there is no excuse to ever use more than ~six~ five characters per line.
 This is plenty of width to code *any* conceivable program, and, in practice, is not overly restrictive.
 
-Provided is a linter, max6.py, which will clean up your Python codebase to comply with the max6 recommendation.
-Using max6 is incredibly easy:
+Provided is a linter, `max_5`, which will clean up your Python codebase to comply with the `max_5` recommendation.
+Using `max_5` is incredibly easy:
 
-    $ python max6.py input.py compliant_output.py
+    $ python max_5 input.py compliant_output.py
+
+`max_5` is compatible with *both* Python 2 and Python 3, because `2 + 3 = 5`
 
 ## We eat our own dogfood.
 
-To show just how easy and freeing it is to code in max6 Python style, the entire max6 codebase is written in max6 style.
-Take a look at the max6 source, and I'm sure you'll be compelled that this formatting style is more freeing than it is restricting.
+To show just how easy and freeing it is to code in `max_5` Python style, the entire `max_5` codebase is written in `max_5` style.
+Take a look at the `max_5` source, and I'm sure you'll be compelled that this formatting style is more freeing than it is restricting.
+
+
 
